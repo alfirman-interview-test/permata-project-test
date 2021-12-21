@@ -1,8 +1,15 @@
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+
 function App() {
   return (
-    <div className="min-h-screen w-screen">
-      <header className="bg-[#bada55]">asda</header>
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/login" component={Login} />
+      </Switch>
+    </BrowserRouter>
   );
 }
 

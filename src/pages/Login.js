@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useHistory } from "react-router-dom";
 import GoToRegister from "../components/GoToRegister";
 import LoginInputs from "../components/LoginInputs";
@@ -32,6 +32,14 @@ export default function Login() {
   const handleChange = (e) => {
     setInput({ ...input, [e.target.id]: e.target.value });
   };
+
+  useEffect(() => {
+    return () =>
+      setInput({
+        username: "johndoe",
+        password: "password",
+      });
+  }, []);
 
   return (
     <main className="flex justify-center items-center min-h-screen">

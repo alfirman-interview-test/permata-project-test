@@ -23,7 +23,10 @@ export default function Login() {
       .then((res) => res.json())
       .then((data) => {
         alert(data.message);
-        if (data.code === 200) push("/");
+        if (data.code === 200) {
+          localStorage.setItem("token", data.access_token);
+          push("/");
+        }
       })
       .catch((e) => console.log("error", e))
       .finally(() => setLoading(false));

@@ -1,3 +1,5 @@
+import { ArrowNarrowRightIcon } from "@heroicons/react/outline";
+
 export default function Login() {
   return (
     <main className="flex justify-center items-center min-h-screen">
@@ -43,8 +45,9 @@ export default function Login() {
             <span className="font-semibold text-gray-700">
               Belum punya akun?
             </span>
-            <button className="text-pink-500 font-semibold">
-              Daftar sekarang {"->"}
+            <button className="text-pink-500 font-semibold flex items-center space-x-2">
+              <span>Daftar sekarang</span>
+              <ArrowNarrowRightIcon className="w-4 h-4 mt-1" />
             </button>
           </div>
         </form>

@@ -25,6 +25,7 @@ export default function LoginInputs({ handleChange, input }) {
         </label>
         <input
           id="password"
+          type="password"
           value={input.password}
           onChange={(e) => handleChange(e)}
           placeholder="Masukkan Password Anda"

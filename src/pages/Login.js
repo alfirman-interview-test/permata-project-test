@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { useHistory } from "react-router-dom";
-import GoToRegister from "../components/GoToRegister";
-import LoginInputs from "../components/LoginInputs";
-import RememberMe from "../components/RememberMe";
+import GoToRegister from "../components/login/GoToRegister";
+import LoginInputs from "../components/login/LoginInputs";
+import RememberMe from "../components/login/RememberMe";
 
 export default function Login() {
   const { push } = useHistory();

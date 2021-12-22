@@ -1,6 +1,6 @@
-import Header from "../components/Header";
-import Carousel from "../components/Carousel";
-import Intro from "../components/Intro";
+import Header from "../components/home/Header";
+import Carousel from "../components/home/Carousel";
+import Intro from "../components/home/Intro";
 
 export default function Home() {
   return (

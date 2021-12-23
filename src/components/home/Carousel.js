@@ -61,8 +61,8 @@ export default function Carousel() {
 }
 
 const images = [
-  "https://c4.wallpaperflare.com/wallpaper/246/739/689/digital-digital-art-artwork-illustration-abstract-hd-wallpaper-preview.jpg",
-  "https://c4.wallpaperflare.com/wallpaper/246/739/689/digital-digital-art-artwork-illustration-abstract-hd-wallpaper-preview.jpg",
-  "https://c4.wallpaperflare.com/wallpaper/246/739/689/digital-digital-art-artwork-illustration-abstract-hd-wallpaper-preview.jpg",
-  "https://c4.wallpaperflare.com/wallpaper/246/739/689/digital-digital-art-artwork-illustration-abstract-hd-wallpaper-preview.jpg",
+  "https://ptnbp.com/wp-content/uploads/elementor/thumbs/training-1-ou1n3ptzfgacm1y1ned50o228ma0fzad82wbwv194s.png",
+  "https://ptnbp.com/wp-content/uploads/elementor/thumbs/training-1-ou1n3ptzfgacm1y1ned50o228ma0fzad82wbwv194s.png",
+  "https://ptnbp.com/wp-content/uploads/elementor/thumbs/training-1-ou1n3ptzfgacm1y1ned50o228ma0fzad82wbwv194s.png",
+  "https://ptnbp.com/wp-content/uploads/elementor/thumbs/training-1-ou1n3ptzfgacm1y1ned50o228ma0fzad82wbwv194s.png",
 ];
